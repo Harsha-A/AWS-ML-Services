@@ -1,4 +1,4 @@
-# AWS-ML-Services
+# AWS Certified Generative AI Developer - Professional (AIP-C01) Exam Guide
 ML Services
 
 
