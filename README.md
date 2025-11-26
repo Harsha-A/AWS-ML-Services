@@ -3414,23 +3414,63 @@ When the exam mentions "clustering" without qualification, it typically refers t
 | **Object2Vec** | Unsupervised/Supervised | **Embeddings**, nearest neighbors, recommender systems, pairs of objects. |
 | **K-Means** | Unsupervised (Clustering) | **Grouping**, segmentation, $k$ centroids, finding structure in unlabeled data. |
 
-[1](https://aws.amazon.com/blogs/machine-learning/deep-demand-forecasting-with-amazon-sagemaker/)
-[2](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html)
-[3](https://towardsdatascience.com/using-aws-sagemakers-linear-learner-to-solve-regression-problems-36732d802ba6/)
-[4](https://docs.aws.amazon.com/sagemaker/latest/dg/linear-learner.html)
-[5](https://www.pluralsight.com/resources/blog/cloud/getting-hands-on-with-amazon-sagemaker-linear-learner)
-[6](https://sagemaker.readthedocs.io/en/v2.15.2/algorithms/linear_learner.html)
-[7](https://docs.aws.amazon.com/sagemaker/latest/dg/object2vec.html)
-[8](https://www.linkedin.com/pulse/amazon-sagemaker-object2vec-turning-objects-python-ramirez-sosa-72e7e)
-[9](https://docs.aws.amazon.com/sagemaker/latest/dg/object2vec-howitworks.html)
-[10](https://aws.amazon.com/blogs/machine-learning/introduction-to-amazon-sagemaker-object2vec/)
-[11](https://jayendrapatil.com/aws-certified-ai-practitioner-aif-c01-exam-learning-path/)
-[12](https://aws.amazon.com/certification/certified-ai-practitioner/)
-[13](https://tutorialsdojo.com/aws-certified-ai-practitioner-aif-c01-exam-guide/)
-[14](https://media.whizlabs.com/website/Cheat-Sheet-AWS-AI-Practitioner.pdf)
-[15](https://digitalcloud.training/aws-certified-ai-practitioner-cheat-sheet/)
-[16](https://sagemaker-examples-test-website.readthedocs.io/en/latest/introduction_to_applying_machine_learning/linear_time_series_forecast/linear_time_series_forecast.html)
-[17](https://k21academy.com/ai-ml/aws/aws-certified-ai-practitioner-labs/)
-[18](https://www.youtube.com/watch?v=WZeZZ8_W-M4)
-[19](https://docs.aws.amazon.com/de_de/aws-certification/latest/userguide/aws-certification-user-guide.pdf)
-[20](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar_how-it-works.html)
+
+----------------
+
+To customize a foundational model using Amazon Bedrock, the prerequisites should be ordered as follows:
+
+Prepare the training dataset
+
+Before you can start customizing a model, you must prepare a training dataset to fine-tune or train the model according to your specific needs.
+
+Create a fine-tuning or pre-training job
+
+Depending on your training data and objectives, you might either fine-tune or pre-train the model. If fine-tuning, the training data is usually labeled and tailored to specific domains, helping to adapt the foundational model to your needs. Conversely, pre-training involves training the model on a broader, often unlabeled dataset to build foundational knowledge.
+
+Purchase Provisioned Throughput
+
+Once the custom model is created, you must purchase provisioned throughput to use it for inference.
+
+Hence, the correct answers are:
+
+– Step 1: Prepare the training dataset
+
+– Step 2: Create a fine-tuning or pre-training job
+
+– Step 3: Purchase Provisioned Throughput
+
+
+----------
+
+<img width="1600" height="896" alt="image" src="https://github.com/user-attachments/assets/7507254f-b93f-4884-8b13-d04d3738e55a" />
+
+– Translate patents from English to French, including embedded images like technical diagrams: Generative AI model
+
+– Predict customer subscription cancellations for a telecom provider based on historical usage data: Traditional ML model 
+
+– Create innovative visual designs from text-based advertising briefs: Generative AI model 
+
+– Identify the sentiment behind customer feedback and social media posts: Traditional ML model 
+
+----------
+
+<img width="1600" height="896" alt="image" src="https://github.com/user-attachments/assets/c200500e-8f14-4355-b557-455c45db2472" />
+
+
+Hence, the correct answers are:
+
+– To group users with similar viewing habits: Clustering 
+
+– To identify common patterns in the types of shows watched together: Association rule learning
+
+– To estimate how users’ preferences are spread across different genres: Probability density 
+
+The option that says: Dimensionality reduction is incorrect because, while it is a valuable technique for simply reducing the number of features or variables in a dataset, it does not directly achieve the specific objectives mentioned in the scenario.
+
+The option that says: Neural network is incorrect because it is just a supervised learning method that requires labeled data to train a model, which does not align with the unsupervised nature of the tasks in the scenario.
+
+The option that says: Decision tree is incorrect because this option is primarily used in supervised learning for classification and regression tasks, making them unsuitable for the unsupervised learning objectives outlined in the scenario.
+
+The option that says: Linear regression is incorrect because it is a supervised learning technique only used to model relationships between input features and a continuous output variable, which does not fit the unsupervised learning tasks described.
+
+The option that says: Logistic regression is incorrect because it is another supervised learning algorithm, typically used for binary classification, and is not applicable for the unsupervised tasks mentioned in the scenario.
