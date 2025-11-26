@@ -3474,3 +3474,16 @@ The option that says: Decision tree is incorrect because this option is primaril
 The option that says: Linear regression is incorrect because it is a supervised learning technique only used to model relationships between input features and a continuous output variable, which does not fit the unsupervised learning tasks described.
 
 The option that says: Logistic regression is incorrect because it is another supervised learning algorithm, typically used for binary classification, and is not applicable for the unsupervised tasks mentioned in the scenario.
+
+----------------
+
+The NIST AI RMF and the guidance from NIST Special Publication 1800-26 together provide a structured approach for managing AI risks and enhancing the security of information systems. This ensures that the generative AI solution meets US government regulatory requirements.
+
+Hence, the correct answer is: National Institute of Standards and Technology (NIST).
+
+The option that says: Federal Risk and Authorization Management Program (FedRAMP) is incorrect because this simply focuses on cloud services for federal agencies. While relevant for cloud products, it does not provide the comprehensive security standards and guidelines that the NIST framework does for all federal information systems.
+
+The option that says: Payment card industry data security standard (PCI-DSS) is incorrect because it is primarily focused on securing credit card transactions and protecting cardholder data rather than providing a comprehensive framework for information security within federal information systems.
+
+The option that says: Health Insurance Portability and Accountability Act (HIPAA) is incorrect because it only addresses the protection of health information and patient privacy in healthcare settings. While important for healthcare data, HIPAA does not encompass the broader scope of security and compliance requirements necessary for managing sensitive federal research data within a research institution.
+
