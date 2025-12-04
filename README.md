@@ -3598,6 +3598,9 @@ Chain-of-thought (CoT) prompting is a technique that divides intricate reasoning
 
 Zero-shot prompting is a technique where a user presents a task to a generative model without providing any examples or explicit training for that specific task. Instead, it relies solely on the general knowledge acquired during pre-training to perform the task based on the prompt.
 
+Self-refine prompting: 
+The option that says: Self-refine prompting is incorrect. Self-refine prompting is a technique where a model iteratively solves a problem, critiques its own solution, and then revises the solution based on the critique. This cycle continues until a predetermined stopping condition, such as running out of tokens or time, is met.
+
 <img width="1013" height="401" alt="image" src="https://github.com/user-attachments/assets/e5614d68-0710-4084-a708-24b0fa012bd7" />
 
 
